@@ -1,0 +1,22 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="FinalConsolidatedTestSuite" parallel="false">
+  
+  <listeners>
+    <listener class-name="extentReporterpack.ExtentReportListner"/>
+    <listener class-name="utilPack.RetryListener"/>    
+  </listeners>
+
+  <test thread-count="1" name="CombinedFunctionalTests">
+    <parameter name="Browser" value="Chrome"/>
+    <!-- number of tc': 42 -->
+    <classes>
+
+      <class name="testScenario.CustomerCreation.CustomerCreation_Test">
+        <methods>
+          <include name="TC128_CustomerCreationTest"/>     
+        </methods>
+      </class>       
+      
+    </classes>
+  </test>
+</suite>
