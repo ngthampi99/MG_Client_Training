@@ -2698,7 +2698,7 @@ KeralaSkusWithRange.put("Range:2.5-7.9", Arrays.asList(
 
 	//Customer creation: Mobile number that already exists for both Organization and Retail customers
 	//Organization Customer 
-	public static String TC129_PhoneNumber = "8129101010";
+	public static String TC129_PhoneNumber = "7012330026";
 	//Retail  Customer 
 	public static String TC138_PhoneNumber = "8129144884";
 	//QcandSmith_Person

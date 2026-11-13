@@ -13,9 +13,9 @@ public class CustomerCreation_Test  extends BaseTest
 	CustomerCreation customerCreation;
 	
 	@Test()
-	public void TC128_CustomerCreationTest() throws Exception
+	public void TC129_CustomerCreationTest() throws Exception
 	{
-		customerCreation = new CustomerCreation(getDriver());
-		customerCreation.TC128_CustomerCreation();
+	    customerCreation = new CustomerCreation(getDriver());
+		customerCreation.TC129_CustomerCreation();
 	}
 }

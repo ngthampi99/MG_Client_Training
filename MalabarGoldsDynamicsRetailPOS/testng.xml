@@ -13,7 +13,7 @@
 
       <class name="testScenario.CustomerCreation.CustomerCreation_Test">
         <methods>
-          <include name="TC128_CustomerCreationTest"/>     
+          <include name="TC129_CustomerCreationTest"/>     
         </methods>
       </class>       
       
